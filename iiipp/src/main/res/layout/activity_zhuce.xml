@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwei.ssp.home_work.Acticity.ZhuceActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="#FF8003"
+         >
+         <ImageView
+             android:layout_width="51dp"
+             android:layout_height="50dp"
+
+             tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="新用户注册"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText" />
+     </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+
+        android:hint="请输入用户名"
+        tools:ignore="HardcodedText,TextFields"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/ed_pass"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+         android:password="true"
+        android:hint="请输入密码"
+        tools:ignore="Deprecated,HardcodedText" />
+    <EditText
+        android:id="@+id/ed_pass1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:password="true"
+        android:hint="请再次输入密码"
+        tools:ignore="Deprecated,HardcodedText" />
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+
+        android:hint="请输入邮箱名"
+        tools:ignore="HardcodedText,TextFields" />
+
+       <Button
+           android:layout_marginTop="10dp"
+           android:layout_width="300dp"
+           android:layout_height="50dp"
+           android:background="@mipmap/zc"
+           android:id="@+id/zc"
+           />
+
+</LinearLayout>

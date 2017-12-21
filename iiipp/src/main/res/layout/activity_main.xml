@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.bwei.ssp.home_work.MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+          android:background="@mipmap/log"
+        android:layout_marginTop="30dp"
+         />
+    <EditText
+        android:text="17600773338"
+        android:layout_marginTop="50dp"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:id="@+id/ed_phone"
+        android:hint="手机号/会员名/邮箱"
+        />
+    <EditText
+        android:text="123456"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:id="@+id/ed_pass"
+        android:layout_marginTop="20dp"
+        android:hint="请输入密码"
+        android:password="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新用户注册"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/zc"
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:id="@+id/login"
+        android:background="@mipmap/dl"
+
+        />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三方登录"
+        />
+    <ImageView
+        android:id="@+id/qq"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/qq"
+
+        />
+
+</LinearLayout>

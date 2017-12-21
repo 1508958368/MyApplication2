@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/18_shopping_cart" />
+            <option value="$PROJECT_DIR$/a66pp" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/day14rikao" />
+            <option value="$PROJECT_DIR$/demo" />
+            <option value="$PROJECT_DIR$/demo2" />
+            <option value="$PROJECT_DIR$/gouwuche" />
+            <option value="$PROJECT_DIR$/gouwuche01" />
+            <option value="$PROJECT_DIR$/iiipp" />
+            <option value="$PROJECT_DIR$/mmbapp" />
+            <option value="$PROJECT_DIR$/ppapp" />
+            <option value="$PROJECT_DIR$/quan1app" />
+            <option value="$PROJECT_DIR$/quanapp" />
+            <option value="$PROJECT_DIR$/quandemo" />
+            <option value="$PROJECT_DIR$/ssapp" />
+            <option value="$PROJECT_DIR$/wwday14rikao" />
+            <option value="$PROJECT_DIR$/wxrapp" />
+            <option value="$PROJECT_DIR$/xiangmu" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+         <CheckBox
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/che1"
+             />
+         <TextView
+             android:id="@+id/tv"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="商家1"
+             />
+
+     </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guc_item_rlv"
+        android:layout_marginLeft="30dp"
+        ></android.support.v7.widget.RecyclerView>
+</LinearLayout>

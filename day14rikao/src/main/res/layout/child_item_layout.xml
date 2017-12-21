@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_centerVertical="true"
+        android:id="@+id/check_child"
+        android:button="@null"
+        android:background="@drawable/check_box_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_good"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/check_child"
+        android:layout_marginLeft="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_toRightOf="@+id/image_good"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/image_good"
+        android:maxLines="2"
+        android:minLines="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_toRightOf="@+id/image_good"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/image_good"
+        android:text="¥99.99"
+        android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/image_good"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_jian"
+            android:text="一"
+            android:padding="5dp"
+            android:background="@drawable/bian_kuang_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/text_num"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/bian_kuang_line"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_add"
+            android:text="十"
+            android:padding="5dp"
+            android:background="@drawable/bian_kuang_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

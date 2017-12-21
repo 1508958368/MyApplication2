@@ -1,0 +1,16 @@
+<resources>
+    <!--登入界面-->
+    <string name="app_name">TaoBaoDemo</string>
+    <string name="name_tishi">手机号/会员名/邮箱</string>
+    <string name="pwd_tishi">请输入密码</string>
+    <string name="new_users">新用户注册</string>
+
+
+    <!--注册页面-->
+    <string name="new_user">请输入用户名</string>
+    <string name="new_pwd">请输入密码</string>
+    <string name="new_pwds">请输入再次密码</string>
+    <string name="new_email">请输入邮箱</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">我是首页</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/18_shopping_cart/18_shopping_cart.iml" filepath="$PROJECT_DIR$/18_shopping_cart/18_shopping_cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication2.iml" filepath="$PROJECT_DIR$/MyApplication2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a66pp/a66pp.iml" filepath="$PROJECT_DIR$/a66pp/a66pp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day14rikao/day14rikao.iml" filepath="$PROJECT_DIR$/day14rikao/day14rikao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo2/demo2.iml" filepath="$PROJECT_DIR$/demo2/demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gouwuche/gouwuche.iml" filepath="$PROJECT_DIR$/gouwuche/gouwuche.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gouwuche01/gouwuche01.iml" filepath="$PROJECT_DIR$/gouwuche01/gouwuche01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iiipp/iiipp.iml" filepath="$PROJECT_DIR$/iiipp/iiipp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmbapp/mmbapp.iml" filepath="$PROJECT_DIR$/mmbapp/mmbapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ppapp/ppapp.iml" filepath="$PROJECT_DIR$/ppapp/ppapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quan1app/quan1app.iml" filepath="$PROJECT_DIR$/quan1app/quan1app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanapp/quanapp.iml" filepath="$PROJECT_DIR$/quanapp/quanapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quandemo/quandemo.iml" filepath="$PROJECT_DIR$/quandemo/quandemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssapp/ssapp.iml" filepath="$PROJECT_DIR$/ssapp/ssapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wwday14rikao/wwday14rikao.iml" filepath="$PROJECT_DIR$/wwday14rikao/wwday14rikao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxrapp/wxrapp.iml" filepath="$PROJECT_DIR$/wxrapp/wxrapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiangmu/xiangmu.iml" filepath="$PROJECT_DIR$/xiangmu/xiangmu.iml" />
+    </modules>
+  </component>
+</project>

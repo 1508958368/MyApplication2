@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F5F7"
+    tools:context="com.example.lenovo.taobaodemo.fragment.sortfragmentmvp.goodsxiangqing.GoodsDetailsActivity">
+
+    <TextView
+        android:id="@+id/listtitles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="商品列表"
+        android:textSize="20sp"
+        android:background="#6FA3DF"/>
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/goodslist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.5"></com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+</LinearLayout>
